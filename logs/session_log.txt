@@ -1,0 +1,8 @@
+
+[2025-06-15 02:53:16.831962]
+Prompt: now delete all files which were created in last 3 mins
+Command: ```bash
+find . -type f -mmin -3 -delete
+```
+Result:
+[Command executed successfully]
